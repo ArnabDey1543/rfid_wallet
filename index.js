@@ -35,7 +35,7 @@ app.use((error, req, res, next) => {
 })
 
 http_server.listen(port, () => {
-  console.log(`[HTTP] MoreillonPay listening on *:${port}`)
+  console.log(`[HTTP] RFID wallet listening on *:${port}`)
 })
 
 io.sockets.on("connection", async (socket) => {

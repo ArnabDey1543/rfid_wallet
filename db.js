@@ -7,7 +7,7 @@ dotenv.config()
 const {
   // MONGODB_URL = 'mongodb+srv://arnab1543:rony1543@cluster0.hjtr0aq.mongodb.net/?retryWrites=true&w=majority',
   MONGODB_URL = "mongodb+srv://arnab1543:rony1543@cluster0.f60fb.mongodb.net/mernstack?retryWrites=true",
-  MONGODB_DB = 'moreillon_pay',
+  MONGODB_DB = 'RFID_pay',
 } = process.env
 
 
